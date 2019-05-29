@@ -16,6 +16,7 @@ if (ans===1){
     if(yy==="D"){
         document.getElementById("question").value="You are right"
         Score++
+	    document.view.qscore.value=score
         
     }
     else {
@@ -29,6 +30,7 @@ else if (ans===2){
     if(yy==="A"){
         document.getElementById("question").value="You are right"
          score++
+	    document.view.qscore.value=score
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -36,7 +38,7 @@ else if (ans===2){
     }
     
 }
-	document.view.qscore.value=score
+	
 
 	ans++; 
 }
